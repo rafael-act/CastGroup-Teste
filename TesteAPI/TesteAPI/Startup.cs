@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TesteAPI.Repositorio.Contexto;
 
 namespace TesteAPI
 {
@@ -18,7 +20,12 @@ namespace TesteAPI
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            //configuração de string de conexao com o banco MySQL
+            //arquivo obrigatorio e quando houver mudança será recarregado
+            var builder = new ConfigurationBuilder();
+            builder.AddJsonFile("config.json",optional:false,reloadOnChange:true);
+
+            Configuration = builder.Build();//constroi chave de valor das configurações
         }
 
         public IConfiguration Configuration { get; }
@@ -43,6 +50,12 @@ namespace TesteAPI
                     Description = "Aplicação desenvolvida para teste de avaliação técnico CastGroup"
                 });
             });
+
+            //configurando string de conexao
+            var connectionString = Configuration.GetConnectionString("CastGroupDB");
+            services.AddDbContext<CastGroupContexto>(option => 
+                                                     option.UseMySql(connectionString,ServerVersion.AutoDetect("connectionString"),
+                                                     m=>m.MigrationsAssembly("TesteAPI.Repositorio")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +67,6 @@ namespace TesteAPI
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TesteAPI v1")) ;
-                app.UseSwaggerUI(c => c.InjectStylesheet("/swagger-custom/swagger-custom.css"));
             }
 
             app.UseHttpsRedirection();

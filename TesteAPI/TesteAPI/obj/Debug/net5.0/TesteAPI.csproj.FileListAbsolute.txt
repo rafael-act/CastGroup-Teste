@@ -29,3 +29,15 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAP
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.genruntimeconfig.cache
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\config.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\MySqlConnector.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.pdb

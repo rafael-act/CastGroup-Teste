@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TesteAPI.Dominio\TesteAPI.Dominio.csproj" />
+    <ProjectReference Include="..\TesteAPI.Repositorio\TesteAPI.Repositorio.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Repositorio.deps.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\ref\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Repositorio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Dominio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.csproj.AssemblyReference.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.AssemblyInfoInputs.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.AssemblyInfo.cs
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.csproj.CoreCompileInputs.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.csproj.CopyComplete
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\ref\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.pdb
