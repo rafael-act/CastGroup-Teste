@@ -14,7 +14,7 @@ namespace TesteAPI.Dominio.Entidades
         public DateTime DataTernmino { get; set; }
         public int QuantidadeTurma { get; set; }
         public int CodigoCategoria { get; set; }
-        public Categoria Categoria { get; set; }
+        public virtual Categoria Categoria { get; set; }
 
         public override void Validate()
         {

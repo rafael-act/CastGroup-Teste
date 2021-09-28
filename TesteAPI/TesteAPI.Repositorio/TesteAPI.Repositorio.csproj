@@ -13,8 +13,4 @@
     <ProjectReference Include="..\TesteAPI.Dominio\TesteAPI.Dominio.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
-
 </Project>
