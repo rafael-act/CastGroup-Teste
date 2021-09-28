@@ -27,3 +27,5 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAP
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\ref\TesteAPI.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.pdb
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.genruntimeconfig.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.pdb
