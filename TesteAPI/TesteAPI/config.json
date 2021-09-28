@@ -1,8 +1,7 @@
 //Aqui fica a string de conexao com o banco
-
 {
   "ConnectionStrings": {
-    "CastGroupDB": "server=127.0.0.1;uid=root;pwd=;database=castgroup",
+    "CastGroupDB": "server=127.0.0.1;database=castgroup;uid=root;pwd=;",
     "SqlConnection": ""
   }
 }

@@ -7,7 +7,7 @@ using TesteAPI.Repositorio.Config;
 /// </summary>
 namespace TesteAPI.Repositorio.Contexto
 {
-    public class CastGroupContexto:DbContext
+    public class CastGroupContexto : DbContext
     {
         public CastGroupContexto(DbContextOptions options) : base(options)
         {
@@ -23,6 +23,24 @@ namespace TesteAPI.Repositorio.Contexto
 
             modelBuilder.ApplyConfiguration(new CursoConfiguration());
             modelBuilder.ApplyConfiguration(new CategoriaConfiguration());
+
+            modelBuilder.Entity<Categoria>()
+                .HasData(
+                new Categoria
+                {
+                    Codigo = 1,
+                    Descricao = "Comportamental"
+                },
+                new Categoria
+                {
+                    Codigo = 2,
+                    Descricao = "Programação"
+                },
+                new Categoria
+                {
+                    Codigo = 3,
+                    Descricao = "Qualidade e Processos"
+                });
 
             base.OnModelCreating(modelBuilder);
         }

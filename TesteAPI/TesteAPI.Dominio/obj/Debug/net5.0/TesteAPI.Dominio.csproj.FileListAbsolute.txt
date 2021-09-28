@@ -9,3 +9,4 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\ref\TesteAPI.Dominio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.csproj.AssemblyReference.cache

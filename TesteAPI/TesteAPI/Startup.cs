@@ -55,7 +55,7 @@ namespace TesteAPI
             var connectionString = Configuration.GetConnectionString("CastGroupDB");
             services.AddDbContext<CastGroupContexto>(option => 
                                                      option.UseLazyLoadingProxies()
-                                                     .UseMySql(connectionString,ServerVersion.AutoDetect("connectionString"),
+                                                     .UseMySql(connectionString,ServerVersion.AutoDetect(connectionString),
                                                      m=>m.MigrationsAssembly("TesteAPI.Repositorio")));
         }
 

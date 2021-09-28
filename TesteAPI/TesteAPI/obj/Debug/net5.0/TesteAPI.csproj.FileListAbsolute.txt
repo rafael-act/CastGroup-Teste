@@ -41,3 +41,5 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Pomelo.
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

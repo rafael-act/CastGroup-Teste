@@ -13,3 +13,6 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\ne
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\ref\TesteAPI.Repositorio.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Repositorio.runtimeconfig.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\bin\Debug\net5.0\TesteAPI.Repositorio.runtimeconfig.dev.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Repositorio\obj\Debug\net5.0\TesteAPI.Repositorio.genruntimeconfig.cache
