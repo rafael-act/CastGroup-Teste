@@ -1,5 +1,6 @@
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\appsettings.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\config.json
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.exe
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.deps.json
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.runtimeconfig.json
@@ -7,10 +8,29 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAP
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\ref\TesteAPI.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Castle.Core.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\MySqlConnector.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.pdb
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.csproj.AssemblyReference.cache
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.AssemblyInfoInputs.cache
@@ -27,29 +47,3 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAP
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\ref\TesteAPI.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.pdb
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.genruntimeconfig.cache
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Dominio.pdb
-<<<<<<< HEAD
-=======
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\config.json
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Castle.Core.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\MySqlConnector.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\TesteAPI.Repositorio.pdb
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Humanizer.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-<<<<<<< HEAD
->>>>>>> 5-EntityFramework
-=======
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
->>>>>>> 6-WebApi

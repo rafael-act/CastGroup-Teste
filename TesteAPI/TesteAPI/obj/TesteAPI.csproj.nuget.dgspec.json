@@ -61,8 +61,6 @@
         }
       }
     },
-<<<<<<< HEAD
-=======
     "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -140,7 +138,6 @@
         }
       }
     },
->>>>>>> 5-EntityFramework
     "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,12 +167,9 @@
             "projectReferences": {
               "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj": {
                 "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj"
-<<<<<<< HEAD
-=======
               },
               "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj": {
                 "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj"
->>>>>>> 5-EntityFramework
               }
             }
           }

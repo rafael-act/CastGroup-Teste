@@ -625,8 +625,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-<<<<<<< HEAD
-=======
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1737,7 +1735,6 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
->>>>>>> 5-EntityFramework
       "TesteAPI.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1747,8 +1744,6 @@
         "runtime": {
           "bin/placeholder/TesteAPI.Dominio.dll": {}
         }
-<<<<<<< HEAD
-=======
       },
       "TesteAPI.Repositorio/1.0.0": {
         "type": "project",
@@ -1764,13 +1759,10 @@
         "runtime": {
           "bin/placeholder/TesteAPI.Repositorio.dll": {}
         }
->>>>>>> 5-EntityFramework
       }
     }
   },
   "libraries": {
-<<<<<<< HEAD
-=======
     "Castle.Core/4.4.1": {
       "sha512": "zanbjWC0Y05gbx4eGXkzVycOQqVOFVeCjVsDSyuao9P4mtN1w3WxxTo193NGC7j3o2u3AJRswaoC6hEbnGACnQ==",
       "type": "package",
@@ -1998,7 +1990,6 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
->>>>>>> 5-EntityFramework
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -5851,8 +5842,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "System.Threading.Tasks.Extensions/4.3.0": {
       "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "type": "package",
@@ -6103,36 +6092,24 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
->>>>>>> 5-EntityFramework
     "TesteAPI.Dominio/1.0.0": {
       "type": "project",
       "path": "../TesteAPI.Dominio/TesteAPI.Dominio.csproj",
       "msbuildProject": "../TesteAPI.Dominio/TesteAPI.Dominio.csproj"
-<<<<<<< HEAD
-=======
     },
     "TesteAPI.Repositorio/1.0.0": {
       "type": "project",
       "path": "../TesteAPI.Repositorio/TesteAPI.Repositorio.csproj",
       "msbuildProject": "../TesteAPI.Repositorio/TesteAPI.Repositorio.csproj"
->>>>>>> 5-EntityFramework
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "Swashbuckle.AspNetCore >= 5.6.3",
-      "TesteAPI.Dominio >= 1.0.0"
-=======
-=======
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.10",
->>>>>>> 6-WebApi
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "TesteAPI.Dominio >= 1.0.0",
       "TesteAPI.Repositorio >= 1.0.0"
->>>>>>> 5-EntityFramework
     ]
   },
   "packageFolders": {
@@ -6168,12 +6145,9 @@
           "projectReferences": {
             "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj": {
               "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj"
-<<<<<<< HEAD
-=======
             },
             "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj": {
               "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj"
->>>>>>> 5-EntityFramework
             }
           }
         }

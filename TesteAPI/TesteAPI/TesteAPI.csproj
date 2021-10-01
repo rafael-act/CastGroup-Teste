@@ -15,10 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TesteAPI.Dominio\TesteAPI.Dominio.csproj" />
-<<<<<<< HEAD
-=======
     <ProjectReference Include="..\TesteAPI.Repositorio\TesteAPI.Repositorio.csproj" />
->>>>>>> 5-EntityFramework
   </ItemGroup>
 
 </Project>

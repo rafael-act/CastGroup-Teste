@@ -1,14 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "eUsK+T4bgdJLJ6uKptjvi64YXdDLeG4YKX+X43SScQST3EDAuWYO6fFRiXBZ9xg4Sa16G114enn3WBw6nha09Q==",
-=======
-  "dgSpecHash": "YtuBJ21OfYqBooJ9SOyG2sWRsqDCh0VEWXaYkVTAMTYLaZJuvpFDVOcnNPSLWUyzh/tolc4lY7/a7E+Rri3OsQ==",
->>>>>>> 5-EntityFramework
-=======
   "dgSpecHash": "zyIKc92c3v+aMDZJyskXKZrC7XMaO26WHBGQet82SuHv63CNd0rjeOt+2TImIz7ZEwQJr5y2+FxVlOk5fWTqog==",
->>>>>>> 6-WebApi
   "success": true,
   "projectFilePath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj",
   "expectedPackageFiles": [

@@ -93,15 +93,8 @@ namespace TesteAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-<<<<<<< HEAD
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TesteAPI v1")) ;
-<<<<<<< HEAD
                 app.UseSwaggerUI(c => c.InjectStylesheet("/swagger-custom/swagger-custom.css"));
-=======
->>>>>>> 5-EntityFramework
-=======
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TesteAPI v1"));
->>>>>>> 6-WebApi
             }
 
             app.UseHttpsRedirection();
