@@ -20,7 +20,7 @@ namespace TesteAPI.Dominio.Entidades
         public virtual Categoria Categoria { get; set; }
 >>>>>>> 5-EntityFramework
 
-        public override void Validate()
+        public override void Validar()
         {
             LimparMensagensValidacao();
 
@@ -33,9 +33,14 @@ namespace TesteAPI.Dominio.Entidades
             {
                 AdicionarCritica("Código da categoria informado é inválido!");
             }
+            ///b. Não será permitida a inclusão de cursos com a data de início menor que a data atual.
             if (DataInicio <= DateTime.Now)
             {
                 AdicionarCritica("Não será permitida a inclusão de cursos com a data de início menor que a data atual!");
+            }
+            if (DataTernmino<DataInicio)
+            {
+                AdicionarCritica("Não será permitida a inclusão de cursos com a data de final menor que a data inicial!");
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace TesteAPI.Dominio.Entidades
 {
@@ -10,9 +11,10 @@ namespace TesteAPI.Dominio.Entidades
     {
         public int Codigo { get; set; }
         public string Descricao { get; set; }
-        public virtual ICollection<Curso> Cursos { get; set; }
+        [IgnoreDataMember]
+        public virtual Curso Cursos { get; set; }
 
-        public override void Validate()
+        public override void Validar()
         {
             LimparMensagensValidacao();
 

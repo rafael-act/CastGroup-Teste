@@ -18,8 +18,7 @@ namespace TesteAPI.Repositorio.Config
             builder.Property(u => u.DataInicio).HasColumnType("date").IsRequired();
             builder.Property(u => u.DataTernmino).HasColumnType("date").IsRequired();
             builder.Property(u => u.QuantidadeTurma).HasColumnType("int");
-            builder.Property(u => u.CodigoCategoria).HasColumnType("int").IsRequired();
-            builder.HasOne(u => u.Categoria);
+            builder.HasOne(c => c.Categoria).WithOne(ca => ca.Cursos).HasForeignKey<Categoria>(cat=>cat.Codigo).IsRequired();
         }
     }
 }
