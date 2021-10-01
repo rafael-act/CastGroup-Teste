@@ -61,14 +61,16 @@
         }
       }
     },
-    "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj": {
+<<<<<<< HEAD
+=======
+    "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj",
-        "projectName": "TesteAPI",
-        "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj",
+        "projectUniqueName": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj",
+        "projectName": "TesteAPI.Repositorio",
+        "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\obj\\",
+        "outputPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -104,6 +106,96 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+>>>>>>> 5-EntityFramework
+    "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj",
+        "projectName": "TesteAPI",
+        "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\TesteAPI.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj"
+<<<<<<< HEAD
+=======
+              },
+              "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj": {
+                "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Repositorio\\TesteAPI.Repositorio.csproj"
+>>>>>>> 5-EntityFramework
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

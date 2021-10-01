@@ -14,7 +14,11 @@ namespace TesteAPI.Dominio.Entidades
         public DateTime DataTernmino { get; set; }
         public int QuantidadeTurma { get; set; }
         public int CodigoCategoria { get; set; }
+<<<<<<< HEAD
         public Categoria Categoria { get; set; }
+=======
+        public virtual Categoria Categoria { get; set; }
+>>>>>>> 5-EntityFramework
 
         public override void Validate()
         {
