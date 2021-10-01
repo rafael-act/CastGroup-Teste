@@ -7,7 +7,7 @@ using TesteAPI.Dominio.Entidades;
 
 namespace TesteAPI.Dominio.Contratos
 {
-    public interface ICurso:IBaseRepositorio<Curso>
+    public interface ICategoriaRepositorio:IBaseRepositorio<Categoria>
     {
     }
 }

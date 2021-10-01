@@ -7,7 +7,8 @@ using TesteAPI.Dominio.Entidades;
 
 namespace TesteAPI.Dominio.Contratos
 {
-    public interface ICategoria:IBaseRepositorio<Categoria>
+    public interface ICursoRepositorio:IBaseRepositorio<Curso>
     {
+        bool ValidarPeriodo(DateTime dataInicio, DateTime dataFim);
     }
 }

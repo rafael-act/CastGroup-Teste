@@ -18,7 +18,6 @@ namespace TesteAPI.Repositorio.Config
         {
             builder.HasKey(u => u.Codigo);
             builder.Property(u => u.Descricao).HasColumnType("varchar").HasMaxLength(100);
-            builder.HasMany(u => u.Cursos).WithOne(u=>u.Categoria);
         }
     }
 }

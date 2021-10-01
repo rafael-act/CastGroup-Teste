@@ -5,39 +5,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TesteAPI.Dominio.Contratos;
+using TesteAPI.Repositorio.Contexto;
 
 namespace TesteAPI.Repositorio.Repositorios
 {
     public class BaseRepositorio<TEntity> : IBaseRepositorio<TEntity> where TEntity : class
     {
+        protected readonly CastGroupContexto _castGroupContexto;
+
+        public BaseRepositorio(CastGroupContexto castGroupContexto)
+        {
+            _castGroupContexto = castGroupContexto;
+        }
+        
         public void Adicionar(TEntity entity)
         {
-            throw new NotImplementedException();
+            _castGroupContexto.Set<TEntity>().Add(entity);
+            _castGroupContexto.SaveChanges();
         }
 
         public void Atualizar(TEntity entity)
         {
-            throw new NotImplementedException();
+            _castGroupContexto.Set<TEntity>().Update(entity);
+            _castGroupContexto.SaveChanges();
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _castGroupContexto.Dispose();
         }
 
         public TEntity ObterPorCodigo(int codigo)
         {
-            throw new NotImplementedException();
+            return _castGroupContexto.Set<TEntity>().Find(codigo);
         }
 
         public IEnumerable<TEntity> ObterTodos()
         {
-            throw new NotImplementedException();
+            return _castGroupContexto.Set<TEntity>();
         }
 
-        public void Remover(TEntity entity)
+        public virtual bool Remover(TEntity entity)
         {
-            throw new NotImplementedException();
+            _castGroupContexto.Set<TEntity>().Remove(entity);
+            _castGroupContexto.SaveChanges();
+            return true;
         }
     }
 }

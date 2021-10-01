@@ -17,7 +17,7 @@ namespace TesteAPI.Dominio.Entidades
             }
         }
 
-        public abstract void Validate();
+        public abstract void Validar();
 
         public bool Valido
         {

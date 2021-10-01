@@ -12,6 +12,6 @@ namespace TesteAPI.Dominio.Contratos
         TEntity ObterPorCodigo(int codigo);
         IEnumerable<TEntity> ObterTodos();
         void Atualizar(TEntity entity);
-        void Remover(TEntity entity);
+        bool Remover(TEntity entity);
     }
 }
