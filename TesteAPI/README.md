@@ -65,6 +65,10 @@ Criar uma API Rest que permita realizar as operações CRUD (criar, recuperar/co
       - CategoriaRespositorio
       - CursoRespositorio
 
+#### **Autenticação e Autorização** 
+
+-   **Autenticação e Autorização com Bearer e JWT**
+-   Acesse o controller /api/Login/login usuario: cast senha: abc123
 ---
 
 ## 🛠 Critérios de aceite
