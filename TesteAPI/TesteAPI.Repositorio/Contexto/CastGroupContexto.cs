@@ -23,6 +23,7 @@ namespace TesteAPI.Repositorio.Contexto
 
             modelBuilder.ApplyConfiguration(new CursoConfiguration());
             modelBuilder.ApplyConfiguration(new CategoriaConfiguration());
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
 
             modelBuilder.Entity<Categoria>()
                 .HasData(
@@ -42,10 +43,20 @@ namespace TesteAPI.Repositorio.Contexto
                     Descricao = "Qualidade e Processos"
                 });
 
+            modelBuilder.Entity<Usuario>()
+                .HasData(new Usuario
+                {
+                    Id = 1,
+                    Nome = "cast",
+                    Senha = "abc123",
+                    Role = "Admin"
+                });
+
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

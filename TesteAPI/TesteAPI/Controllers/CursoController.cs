@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,7 @@ namespace TesteAPI.Controllers
         /// </summary>
         /// <returns>{curso:[]}</curso></returns>
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             try
@@ -46,6 +48,7 @@ namespace TesteAPI.Controllers
         /// <param name="codigo">Código do curso</param>
         /// <returns>{curso}</returns>
         [HttpGet("GetPorCodigo")]
+        [Authorize]
         public IActionResult GetPorCodigo(int codigo)
         {
             try
@@ -66,6 +69,7 @@ namespace TesteAPI.Controllers
         /// <param name="curso">Objeto do tipo curso</param>
         /// <returns>{curso}</returns>
         [HttpPost]
+        [Authorize]
         public IActionResult Post([FromBody] Curso curso)
         {
             try
@@ -103,6 +107,7 @@ namespace TesteAPI.Controllers
         /// <param name="codigo">codigo do curso</param>
         /// <returns>string</returns>
         [HttpDelete("Excluir")]
+        [Authorize]
         public IActionResult Excluir(int codigo)
         {
             try
