@@ -1,0 +1,11 @@
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\bin\Debug\net5.0\TesteAPI.Dominio.deps.json
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\bin\Debug\net5.0\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\bin\Debug\net5.0\ref\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\bin\Debug\net5.0\TesteAPI.Dominio.pdb
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.AssemblyInfo.cs
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\ref\TesteAPI.Dominio.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI.Dominio\obj\Debug\net5.0\TesteAPI.Dominio.pdb

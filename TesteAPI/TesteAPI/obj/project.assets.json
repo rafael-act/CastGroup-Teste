@@ -75,6 +75,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TesteAPI.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TesteAPI.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TesteAPI.Dominio.dll": {}
+        }
       }
     }
   },
@@ -185,11 +195,17 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TesteAPI.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../TesteAPI.Dominio/TesteAPI.Dominio.csproj",
+      "msbuildProject": "../TesteAPI.Dominio/TesteAPI.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "TesteAPI.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -222,7 +238,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj": {
+              "projectPath": "C:\\Projetos\\Castgroup\\CastGroup-Teste\\TesteAPI\\TesteAPI.Dominio\\TesteAPI.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

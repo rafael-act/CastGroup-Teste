@@ -30,18 +30,31 @@ namespace TesteAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TesteAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "TesteAPI",
+                    Version = "v1",
+                    Contact = new OpenApiContact
+                    {
+                        Email = "rafael.actt@gmail.com",
+                        Name = "Rafael Castro",
+                        Url = new Uri("https://github.com/rafael-act/CastGroup-Teste")
+                    },
+                    Description = "Aplicação desenvolvida para teste de avaliação técnico CastGroup"
+                });
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseStaticFiles();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TesteAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TesteAPI v1")) ;
+                app.UseSwaggerUI(c => c.InjectStylesheet("/swagger-custom/swagger-custom.css"));
             }
 
             app.UseHttpsRedirection();
