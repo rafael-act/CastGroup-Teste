@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAPI", "TesteAPI\TesteAPI.csproj", "{F8295EAD-7C60-4359-A7D0-704AAC665020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAPI.Dominio", "TesteAPI.Dominio\TesteAPI.Dominio.csproj", "{353E46AE-9F17-49D1-8320-DA467CDDCBA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAPI.Dominio", "TesteAPI.Dominio\TesteAPI.Dominio.csproj", "{353E46AE-9F17-49D1-8320-DA467CDDCBA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAPI.Repositorio", "TesteAPI.Repositorio\TesteAPI.Repositorio.csproj", "{78EF96F6-7BEE-4C92-977A-9687D2BE70C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAPI.Repositorio", "TesteAPI.Repositorio\TesteAPI.Repositorio.csproj", "{78EF96F6-7BEE-4C92-977A-9687D2BE70C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
