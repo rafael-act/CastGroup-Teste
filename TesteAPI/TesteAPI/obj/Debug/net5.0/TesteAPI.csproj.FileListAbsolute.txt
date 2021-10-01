@@ -47,3 +47,10 @@ C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAP
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\ref\TesteAPI.dll
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.pdb
 C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\obj\Debug\net5.0\TesteAPI.genruntimeconfig.cache
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projetos\Castgroup\CastGroup-Teste\TesteAPI\TesteAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
